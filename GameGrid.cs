@@ -45,12 +45,12 @@
 
         public bool IsRowEmpty(int r)
         {
-            for (int c = 0; r < Columns; c++)
+            for (int c = 0; c < Columns; c++)
             {
                 if (grid[r, c] != 0)
                 {
                     return false; 
-                }                
+                }
             }
 
             return true;
