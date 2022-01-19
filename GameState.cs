@@ -1,4 +1,10 @@
-﻿namespace Tetris
+﻿using System;
+using System.IO;
+using System.Media;
+using System.Reflection;
+using System.Windows.Media;
+
+namespace Tetris
 {
     public class GameState
     {
@@ -129,7 +135,7 @@
 
             Score += GameGrid.ClearFullRows();
 
-            if(IsGameOver())
+            if (IsGameOver())
             {
                 GameOver = true;
             }

@@ -5,6 +5,7 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\Icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,6 +18,9 @@
     <None Remove="Assets\Block-S.png" />
     <None Remove="Assets\Block-T.png" />
     <None Remove="Assets\Block-Z.png" />
+    <None Remove="Assets\Icon.ico" />
+    <None Remove="Assets\pop.wav" />
+    <None Remove="Assets\splash.jpg" />
     <None Remove="Assets\TileBlue.png" />
     <None Remove="Assets\TileCyan.png" />
     <None Remove="Assets\TileEmpty.png" />
@@ -25,6 +29,10 @@
     <None Remove="Assets\TilePurple.png" />
     <None Remove="Assets\TileRed.png" />
     <None Remove="Assets\TileYellow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Icon.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,6 +45,7 @@
     <Resource Include="Assets\Block-S.png" />
     <Resource Include="Assets\Block-T.png" />
     <Resource Include="Assets\Block-Z.png" />
+    <Resource Include="Assets\Icon.ico" />
     <Resource Include="Assets\TileBlue.png" />
     <Resource Include="Assets\TileCyan.png" />
     <Resource Include="Assets\TileEmpty.png" />
@@ -45,6 +54,10 @@
     <Resource Include="Assets\TilePurple.png" />
     <Resource Include="Assets\TileRed.png" />
     <Resource Include="Assets\TileYellow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SplashScreen Include="Assets\splash.jpg" />
   </ItemGroup>
 
 </Project>
